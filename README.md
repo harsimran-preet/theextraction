@@ -4,7 +4,6 @@ Intro:
 My name is Harsimran Preet Singh and I welcome you to my game which I named "The Extraction"
 
 Instructions:
-
 1) To trigger the event, use your mouse to click anywhere in the game window.
 2) The event is open ground with secret nuclear codes that spawn randomly throughout the game.
 3) The game starts with the spawn of the miners(Aryan_hero) and the Knights(obstacles for the enemies) 
