@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="848.0" y="850.0">com</node>
+    <node x="361.0" y="0.0">Entity</node>
+    <node x="514.0" y="475.0">Animations</node>
+    <node x="660.0" y="475.0">Activity</node>
+    <node x="312.0" y="550.0">toolbarButtonGraphics</node>
+    <node x="0.0" y="700.0">EventComparator</node>
+    <node x="273.0" y="625.0">groovyjarjarasm</node>
+    <node x="911.0" y="775.0">java</node>
+    <node x="374.0" y="775.0">javax</node>
+    <node x="616.0" y="550.0">groovyjarjarpicocli</node>
+    <node x="131.0" y="160.0">Quake</node>
+    <node x="30.25" y="320.0">OctoNotFull</node>
+    <node x="818.0" y="700.0">images</node>
+    <node x="0.0" y="850.0">Background</node>
+    <node x="234.0" y="240.0">Zombie</node>
+    <node x="230.0" y="80.0">Actions</node>
+    <node x="0.0" y="160.0">Animates</node>
+    <node x="184.25000000000003" y="320.0">OctoFull</node>
+    <node x="484.0" y="80.0">Atlantis</node>
+    <node x="414.0" y="700.0">META-INF</node>
+    <node x="0.0" y="775.0">groovy</node>
+    <node x="771.0" y="625.0">processing</node>
+    <node x="0.0" y="550.0">groovyjarjarcommonscli</node>
+    <node x="0.0" y="625.0">groovyjarjarantlr</node>
+    <node x="530.0" y="625.0">japplemenubar</node>
+    <node x="616.0" y="700.0">netscape</node>
+    <node x="598.75" y="395.0">Action</node>
+    <node x="353.0" y="80.0">Obstacle</node>
+    <node x="187.0" y="775.0">VirtualWorld</node>
+    <node x="171.0" y="850.0">icon</node>
+    <node x="342.0" y="850.0">WorldModel</node>
+    <node x="0.0" y="475.0">AStarPathingStrategy</node>
+    <node x="128.5" y="240.0">Octo</node>
+    <node x="0.0" y="925.0">sun</node>
+    <node x="211.0" y="700.0">EventScheduler</node>
+    <node x="513.0" y="850.0">ImageStore</node>
+    <node x="349.0" y="240.0">Crab</node>
+    <node x="225.0" y="475.0">SingleStepPathingStrategy</node>
+    <node x="553.0" y="775.0">apple</node>
+    <node x="484.0" y="160.0">Fish</node>
+    <node x="345.0" y="160.0">Activates</node>
+    <node x="732.0" y="775.0">junit</node>
+    <node x="238.0" y="160.0">Moved</node>
+    <node x="8.0" y="240.0">SGrass</node>
+    <node x="141.75" y="395.0">PathingStrategy</node>
+    <node x="163.0" y="925.0">org</node>
+    <node x="489.0" y="925.0">Viewport</node>
+    <node x="684.0" y="850.0">WorldView</node>
+    <node x="645.0" y="925.0">Point</node>
+    <node x="326.0" y="925.0">jdk</node>
+    <node x="777.0" y="925.0">Event</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Actions" target="Entity">
+      <point x="0.0" y="-15.0" />
+      <point x="281.5" y="55.0" />
+      <point x="376.8333333333333" y="55.0" />
+      <point x="-31.666666666666686" y="15.0" />
+    </edge>
+    <edge source="Fish" target="Actions">
+      <point x="0.0" y="-15.0" />
+      <point x="524.0" y="130.0" />
+      <point x="322.7" y="130.0" />
+      <point x="41.19999999999999" y="15.0" />
+    </edge>
+    <edge source="Activates" target="Actions">
+      <point x="0.0" y="-15.0" />
+      <point x="404.5" y="140.0" />
+      <point x="302.1" y="140.0" />
+      <point x="20.600000000000023" y="15.0" />
+    </edge>
+    <edge source="Quake" target="Actions">
+      <point x="0.0" y="-15.0" />
+      <point x="174.5" y="140.0" />
+      <point x="260.9" y="140.0" />
+      <point x="-20.600000000000023" y="15.0" />
+    </edge>
+    <edge source="AStarPathingStrategy" target="PathingStrategy">
+      <point x="0.0" y="-15.0" />
+      <point x="102.5" y="450.0" />
+      <point x="183.25" y="450.0" />
+      <point x="-41.5" y="15.0" />
+    </edge>
+    <edge source="Obstacle" target="Entity">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="OctoNotFull" target="Octo">
+      <point x="0.0" y="-15.0" />
+      <point x="97.25" y="295.0" />
+      <point x="148.5" y="295.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="SingleStepPathingStrategy" target="PathingStrategy">
+      <point x="0.0" y="-15.0" />
+      <point x="347.0" y="450.0" />
+      <point x="266.25" y="450.0" />
+      <point x="41.5" y="15.0" />
+    </edge>
+    <edge source="Crab" target="Moved">
+      <point x="0.0" y="-15.0" />
+      <point x="389.0" y="215.0" />
+      <point x="310.5" y="215.0" />
+      <point x="29.0" y="15.0" />
+    </edge>
+    <edge source="OctoFull" target="Octo">
+      <point x="0.0" y="-15.0" />
+      <point x="239.75000000000003" y="295.0" />
+      <point x="188.50000000000003" y="295.0" />
+      <point x="20.00000000000003" y="15.0" />
+    </edge>
+    <edge source="Animations" target="Action">
+      <point x="0.0" y="-15.0" />
+      <point x="577.0" y="450.0" />
+      <point x="622.5" y="450.0" />
+      <point x="-23.75" y="15.0" />
+    </edge>
+    <edge source="Zombie" target="Moved">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="SGrass" target="Animates">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Moved" target="Actions">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Animates" target="Actions">
+      <point x="0.0" y="-15.0" />
+      <point x="55.5" y="130.0" />
+      <point x="240.3" y="130.0" />
+      <point x="-41.19999999999999" y="15.0" />
+    </edge>
+    <edge source="Octo" target="Moved">
+      <point x="2.8421709430404007E-14" y="-15.0" />
+      <point x="168.50000000000003" y="215.0" />
+      <point x="252.5" y="215.0" />
+      <point x="-29.0" y="15.0" />
+    </edge>
+    <edge source="Atlantis" target="Entity">
+      <point x="0.0" y="-15.0" />
+      <point x="539.5" y="55.0" />
+      <point x="440.1666666666667" y="55.0" />
+      <point x="31.666666666666686" y="15.0" />
+    </edge>
+    <edge source="Activity" target="Action">
+      <point x="0.0" y="-15.0" />
+      <point x="715.5" y="450.0" />
+      <point x="670.0" y="450.0" />
+      <point x="23.75" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6707692307692308" x="518.5" y="477.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
