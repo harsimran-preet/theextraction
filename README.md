@@ -1,7 +1,8 @@
 The Extraction Game using Java by Harsimran Preet Singh 
 
 Intro:
-My name is Harsimran Preet Singh and I welcome you to my game which I named "The Extraction"
+My name is Harsimran Preet Singh and I welcome you to my game which I named "The Extraction".
+The Extraction is made completely in Java is a strategic game where you play as a hero who's task is to kill the enemies before they get access to the secret nuclear codes. You also have performance enhancers in the game on both the good and the bad side. Your strategic deployment of heroes is the only way to stop this attack. Good Luck!
 
 Instructions:
 1) To trigger the event, use your mouse to click anywhere in the game window.
